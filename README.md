@@ -25,4 +25,49 @@ Este projeto exibe uma página HTML simples com uma mensagem de boas-vindas.
 
 ```bash
 git clone https://github.com/vcr1985/Projeto-1---Docker-Compose.git
+cd Projeto-1---Docker-Compose
 ```
+
+### 2. Inicie os serviços com Docker Compose:
+
+```bash
+docker-compose up
+```
+
+### 3. Acesse no navegador:
+
+```
+http://localhost:8000
+```
+
+Você verá a página com a mensagem de boas-vindas.
+
+### 4. Para parar os serviços:
+
+```bash
+docker-compose down
+```
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+.
+├── docker-compose.yml
+├── index.html
+└── README.md
+```
+
+---
+
+## 🧑‍💻 Autor
+
+Vando Ramos – © 2025 Projeto Docker Compose
+
+---
+
+## 📄 Licença
+
+MIT License
+
